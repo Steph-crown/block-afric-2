@@ -1,0 +1,30 @@
+header, header div {
+    display: flex;
+    min-height: 2px;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
+    padding: 1rem;
+    padding: 1rem var(--vert-pad);
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    color: var(--pink);
+    font-size: 2.25rem;
+}
+
+i {
+    display: block;
+}
+.fa-user-circle, .fa-bell {
+    color: var(--pink);
+    font-size: 1.6rem;
+    margin-left: 1.3rem;
+}
+
+.header-logo {
+    height: 36px;
+}
