@@ -14,8 +14,12 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    padding: 0 var(--vert-pad);
     margin-top: 1.6rem;
+}
+
+.input-group, .button-group {
+    padding: 0 var(--vert-pad);
+
 }
 
 select, input {
@@ -24,8 +28,37 @@ select, input {
     border: 1px solid var(--white-shade2);
 }
 select {
-    width: 20%;
+    width: 25%;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #303030;
+    background-color: var(--white-shade2);
 }
 input {
-    width: 80%;
+    width: 75%;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--white-shade1);
+    outline: none;
+}
+
+.button-group {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 44%;
+    min-height: 2px;
+    padding: 1rem 2.3rem;
+    border: none;
+    background-color: var(--blue);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
 }
