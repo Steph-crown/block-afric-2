@@ -11,7 +11,7 @@ const Header = () => {
             </div>
             <div className="right">
                 <i className='fas fa-user-circle'></i>
-                <i class="fa fa-bell"></i>
+                <i className="fa fa-bell"></i>
             </div>
         </header>
     );

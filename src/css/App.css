@@ -2,3 +2,14 @@
   padding: 1.2rem var(--vert-pad);
   width: 100%;
 }
+
+.miscellaneous {
+  display: flex;
+  width: 100%;
+  /* height: 100%; */
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  font-size: 2rem;
+  color: var(--pink);
+}

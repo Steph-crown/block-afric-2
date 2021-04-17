@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem var(--vert-pad);
+    background-color: white;
+    margin-top: 10px;
+    border-top: 1px solid var(--white-shade2);
+    box-shadow: -2px -2px 20px rgba(0,0,0,0.2);
+}
+
+.menu-item {
+    cursor: pointer;
+    color: var(--pink);
+    font-weight: 700;
+    opacity: 0.6;
+}
+
+.selected {
+    opacity: 1;
+}

@@ -5,3 +5,27 @@
     color: #444444;
 }
 
+img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.li {
+    padding: 1rem var(--vert-pad);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--white-shade2);
+    min-height: 2px;
+    align-items: center;
+}
+
+.li p {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #666666;
+}
+
+.activities .header:last-child {
+    padding: 1.6rem;
+}
