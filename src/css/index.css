@@ -1,6 +1,9 @@
 :root {
   --pink: #DF2C7B;
   --vert-pad: calc(0.07 * 100vw);
+  --blue: #1EAAF1;
+  --white-shade1: #EFEFEF;
+  --white-shade2: #D9D9D9;
 }
 * {
   padding: 0;
