@@ -29,11 +29,11 @@ class Menu extends Component {
             text: "Wallet"
         },
         {
-            icon: "fa fa-home",
+            icon: "fas fa-poll",
             text: "Market"
         },
         {
-            icon: "fa fa-home",
+            icon: "fa fa-money",
             text: "Earn"
         }
     ]
