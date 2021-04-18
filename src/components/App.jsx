@@ -6,7 +6,7 @@ import Menu from './Menu';
 import Activity from './Activity';
 import Wallet from './Wallet';
 import Market from './Market';
-import Earth from './Earth'
+import Earn from './Earn'
 
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
     "Activity": Activity,
     "Wallet": Wallet,
     "Market": Market,
-    "Earth": Earth
+    "Earn": Earn
   }
   render() {
     const NewMenu = this.strToObjMap[this.state.currentMenu]

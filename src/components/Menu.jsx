@@ -21,11 +21,11 @@ class Menu extends Component {
             text: "Home"
         },
         {
-            icon: "fa fa-home",
+            icon: "fa fa-list-alt",
             text: "Activity"
         },
         {
-            icon: "fa fa-home",
+            icon: "fa fa-id-card",
             text: "Wallet"
         },
         {
@@ -34,7 +34,7 @@ class Menu extends Component {
         },
         {
             icon: "fa fa-home",
-            text: "Earth"
+            text: "Earn"
         }
     ]
 
