@@ -1,8 +1,6 @@
 import React from 'react';
 import './../css/Activities.css';
-import hiv from './../Icons/hiv.png';
-import heart from './../Icons/heart.png';
-import pressure from './../Icons/pressure.jpg';
+
 
 const Activities = () => {
     return (
