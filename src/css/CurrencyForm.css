@@ -22,12 +22,12 @@
 
 }
 
-select, input {
+.token, input {
     font-size: 1.3rem;
     padding: 0.8rem 1rem;
     border: 1px solid var(--white-shade2);
 }
-select {
+.token {
     width: 25%;
     border-radius: 5px 0 0 5px;
     font-size: 1rem;

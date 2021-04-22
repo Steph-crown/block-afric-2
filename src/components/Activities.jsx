@@ -12,38 +12,50 @@ const Activities = () => {
             </div>
             <div className="ul">
                 <div className="li">
-                    <div className="image">
-                        <img src={hiv} alt=""/>
+                    <div className="col">
+                        <p>Date</p>
                     </div>
                     <div className="activity">
-                        <p>HIV Blood Draw Test</p>
+                        <p>Description</p>
                     </div>
                     <div className="status">
-                        <p>A100</p>
+                        <p>Amount</p>
                     </div>
                 </div>
 
                 <div className="li">
-                    <div className="image">
-                        <img src={heart} alt=""/>
+                    <div className="col">
+                        <p>1/1/21</p>
                     </div>
                     <div className="activity">
-                        <p>TB Radiology XRay</p>
+                        <p>Sent</p>
                     </div>
                     <div className="status">
-                        <p>A30</p>
+                        <p>N100.00</p>
                     </div>
                 </div>
 
                 <div className="li">
-                    <div className="image">
-                        <img src={pressure} alt=""/>
+                    <div className="col">
+                        <p>2/2/21</p>
                     </div>
                     <div className="activity">
-                        <p>Blood Pressure Check</p>
+                        <p>Received</p>
                     </div>
                     <div className="status">
-                        <p>A10</p>
+                        <p>N200.00</p>
+                    </div>
+                </div>
+
+                <div className="li">
+                    <div className="col">
+                        <p>3/3/21</p>
+                    </div>
+                    <div className="activity">
+                        <p>Sent</p>
+                    </div>
+                    <div className="status">
+                        <p>N300.00</p>
                     </div>
                 </div>
             </div>

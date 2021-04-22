@@ -11,10 +11,7 @@ const CurrencyForm = () => {
                 <h5>Select Currency:</h5>
             </div>
             <div className="input-group">
-                <select name="currencyType" id="">
-                    <option value="AFYA">AFYA</option>
-                    <option value="ZAR">ZAR</option>
-                </select>
+                <div className="token">TOKEN</div>
                 <input type="number" name="currencyValue" id="" placeholder="0.00000001"/>
             </div>
             <div className="button-group">
